@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.start-screen,
+.score-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e0e0e0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#start-button,
+#restart {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  background-color: #0a69ed;
+  color: #ffffff;
+}
+
+#restart {
+  margin-top: 0.9em;
+}
+
+#display-container {
+  background-color: #111111;
+  padding: 3.1em 1.8em;
+  width: 80%;
+  max-width: 37.5em;
+  margin: 0 auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.6em;
+  border-bottom: 0.1em solid #444;
+}
+
+.question {
+  font-size: 0.9em;
+  margin-bottom: 0.2em;
+  font-weight: 600;
+}
+
+.option-div {
+  font-size: 0.8em;
+  width: 100%;
+  padding: 0.6em;
+  margin: 0.2em 0;
+  text-align: left;
+  outline: none;
+  background: transparent;
+  border: 1px solid #7d7b7b;
+  border-radius: 0.2em;
+  transition: border-color 0.3s ease;
+  color: #e0e0e0;
+}
+
+.option-div.selected {
+  background-color: #333;
+}
+
+.option-div:disabled {
+  color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.submit-button {
+  font-size: 0.9em;
+  margin-top: 1em;
+  background-color: #0a69ed;
+  color: #ffffff;
+  padding: 0.3em 1.5em;
+  border-radius: 0.3em;
+  display: block;
+}
+
+.submit-button:disabled {
+  background-color: #0b0b0b;
+  cursor: not-allowed;
+}
+
+#next-button {
+  font-size: 1em;
+  margin-top: 1.5em;
+  background-color: #0a69ed;
+  color: #ffffff;
+  padding: 0.7em 1.8em;
+  border-radius: 0.3em;
+  float: left;
+}
+
+#next-button:disabled {
+  background-color: #2f2d2d;
+  cursor: not-allowed;
+}
+
+.hide {
+  display: none;
+}
+
+.incorrect {
+  border: 2px solid #d32f2f;
+  background-color: transparent;
+}
+
+.correct {
+  border: 2px solid #689f38;
+  background-color: transparent;
+}
+
+.correct-missed {
+  border: 2px dashed #689f38;
+  background-color: transparent;
+  /*animation: pulse-missed 2s infinite;*/
+}
+
+#user-score {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+@keyframes pulse-missed {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+.answer-info {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+.number-of-question {
+  font-size: 0.8em;
+  color: #b1afaf;
+  font-weight: bold;
+}
+
+.shuffle-option {
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  color: #444;
+}
+
+.shuffle-option input {
+  margin-right: 8px;
+}
+
+.score-info {
+  margin-left: 15px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+#display-container {
+  background-color: #111111;
+  padding: 3.1em 1.8em;
+  width: 80%;
+  max-width: 37.5em;
+  margin: 2em auto;
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  border-radius: 0.6em;
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.submit-button,
+#next-button {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  display: block;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #display-container {
+    width: 95%;
+    padding: 1.5em 1em;
+    max-width: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .option-div {
+    font-size: 0.75em;
+    padding: 0.5em;
+  }
+  .submit-button,
+  #next-button {
+    font-size: 0.9em;
+    padding: 0.6em 1.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  #display-container {
+    width: 95%;
+    padding: 1.5em 1em;
+    max-width: none;
+    max-height: 95vh;
+    overflow-y: auto;
+  }
+  .submit-button,
+  #next-button {
+    box-sizing: border-box;
+  }
+}

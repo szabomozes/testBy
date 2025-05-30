@@ -1,0 +1,210 @@
+[
+    {
+        "id": "1",
+        "question": "Who is known as the father of the computer?",
+        "options": [
+            "Charles Babbage",
+            "Alan Turing",
+            "Bill Gates",
+            "Steve Jobs"
+        ],
+        "correct": [
+            "Charles Babbage"
+        ]
+    },
+    {
+        "id": "2",
+        "question": "Which of these are programming languages?",
+        "options": [
+            "Python",
+            "HTML",
+            "Java",
+            "Microsoft"
+        ],
+        "correct": [
+            "Python",
+            "HTML",
+            "Java"
+        ]
+    },
+    {
+        "id": "3",
+        "question": "What does CPU stand for?",
+        "options": [
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Programming Unit",
+            "Control Processing Unit"
+        ],
+        "correct": [
+            "Central Processing Unit"
+        ]
+    },
+    {
+        "id": "4",
+        "question": "Which companies helped start the personal computer revolution?",
+        "options": [
+            "Apple",
+            "IBM",
+            "Google",
+            "Microsoft"
+        ],
+        "correct": [
+            "Apple",
+            "IBM",
+            "Microsoft"
+        ]
+    },
+    {
+        "id": "5",
+        "question": "When was the World Wide Web invented?",
+        "options": [
+            "1989",
+            "1975",
+            "1995",
+            "2000"
+        ],
+        "correct": [
+            "1989"
+        ]
+    },
+    {
+        "id": "6",
+        "question": "Which of the following are input devices?",
+        "options": [
+            "Keyboard",
+            "Monitor",
+            "Mouse",
+            "Printer"
+        ],
+        "correct": [
+            "Keyboard",
+            "Mouse"
+        ]
+    },
+    {
+        "id": "7",
+        "question": "Who co-founded Microsoft?",
+        "options": [
+            "Steve Jobs",
+            "Bill Gates",
+            "Paul Allen",
+            "Mark Zuckerberg"
+        ],
+        "correct": [
+            "Bill Gates",
+            "Paul Allen"
+        ]
+    },
+    {
+        "id": "8",
+        "question": "What does RAM stand for in computer terminology?",
+        "options": [
+            "Random Access Memory",
+            "Read Any Memory",
+            "Rapid Application Module",
+            "Run Access Machine"
+        ],
+        "correct": [
+            "Random Access Memory"
+        ]
+    },
+    {
+        "id": "9",
+        "question": "Which of these are early operating systems?",
+        "options": [
+            "MS-DOS",
+            "Windows 95",
+            "Linux",
+            "Google Chrome"
+        ],
+        "correct": [
+            "MS-DOS",
+            "Windows 95",
+            "Linux"
+        ]
+    },
+    {
+        "id": "10",
+        "question": "What is the main function of an operating system?",
+        "options": [
+            "Manage computer hardware",
+            "Write code",
+            "Create graphics",
+            "Browse the internet"
+        ],
+        "correct": [
+            "Manage computer hardware"
+        ]
+    },
+    {
+        "id": "11",
+        "question": "Which company created the first commercial microprocessor?",
+        "options": [
+            "Intel",
+            "IBM",
+            "Apple",
+            "Nokia"
+        ],
+        "correct": [
+            "Intel"
+        ]
+    },
+    {
+        "id": "12",
+        "question": "What were the first computers primarily used for?",
+        "options": [
+            "Calculations",
+            "Playing games",
+            "Internet browsing",
+            "Video editing"
+        ],
+        "correct": [
+            "Calculations"
+        ]
+    },
+    {
+        "id": "13",
+        "question": "Which of these are types of software?",
+        "options": [
+            "System software",
+            "Application software",
+            "Hardware",
+            "Middleware"
+        ],
+        "correct": [
+            "System software",
+            "Application software",
+            "Middleware"
+        ]
+    },
+    {
+        "id": "14",
+        "question": "What is an example of a search engine?",
+        "options": [
+            "Google",
+            "Facebook",
+            "Twitter",
+            "Bing"
+        ],
+        "correct": [
+            "Google",
+            "Bing"
+        ]
+    },
+    {
+        "id": "15",
+        "question": "Which devices are considered output devices?",
+        "options": [
+            "Monitor",
+            "Printer",
+            "Keyboard",
+            "Speakers"
+        ],
+        "correct": [
+            "Monitor",
+            "Printer",
+            "Speakers"
+        ]
+    }
+]
