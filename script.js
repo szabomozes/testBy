@@ -157,7 +157,7 @@ function submitAnswers() {
 
   isSubmitted = true;
   nextBtn.disabled = false;
-  nextBtn.textContent = "Következő";
+  nextBtn.textContent = "Next";
 }
 
 function updateScoreDisplay() {
@@ -190,8 +190,8 @@ function quizCreator() {
     const answerInfo = document.createElement("p");
     answerInfo.classList.add("answer-info");
     answerInfo.textContent = item.correct.length > 1
-      ? "(több helyes válasz)"
-      : "(egy helyes válasz)";
+      ? "(multiple correct answers)"
+      : "(single correct answer)";
     div.appendChild(answerInfo);
 
     const shuffledOptions = shuffleArray(item.options);
