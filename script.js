@@ -63,7 +63,7 @@ function displayNext() {
     scoreContainer.classList.remove("hide");
     const total = quizArray.length;
     const percentage = Math.round((scoreCount / total) * 100);
-    userScore.innerHTML = `Eredmény: ${scoreCount}/${total} (${percentage}%)<br>${correctAnswersCount} helyes | ${incorrectAnswersCount} helytelen`;
+    userScore.innerHTML = `Result: ${scoreCount}/${total} (${percentage}%)<br>${correctAnswersCount} correct | ${incorrectAnswersCount} incorrect`;
   } else {
     countOfQuestion.textContent = `${questionCount + 1}/${quizArray.length} question`;
     quizDisplay(questionCount);
