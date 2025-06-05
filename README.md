@@ -3,6 +3,12 @@
 **testBy** is a lightweight, customizable web quiz app designed to help you prep for exams. It supports single and multiple correct answers, question shuffling, and tracks your score with instant feedback.
 
 ---
+### 🔗 Live Demo
+
+Check out the working app here: [Live Demo](https://szabomozes.github.io/testBy/)
+
+
+---
 
 ## Features
 
